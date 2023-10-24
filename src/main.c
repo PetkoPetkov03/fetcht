@@ -7,6 +7,7 @@ int change(char* dir, char* token) {
 
     if(fptr == NULL) {
         printf("File not found!");
+        return -1;
     }
 
     fprintf(fptr, token);
